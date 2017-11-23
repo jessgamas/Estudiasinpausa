@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+.row{
+	margin:0px;
+}
+
+header{
+	background-color: #00687c;
+}
+
+header img{
+	max-width: 270px;
+}
+
+body{
+	font-family:'Chivo';
+	margin: 0px;
+	color: #00687c; 
+}
+#titulo{
+	background: url(../images/home.svg);
+	background-size: cover;
+	border-radius: 0 0 60px 60px;
+
+}
+
+#titulo > section > section > div:nth-child(1) > img{
+	width: 38%;
+	margin-top: 4em;
+}
+
+#titulo > section > section > div:nth-child(2) > img{
+	width: 81%;
+    margin-top: -4em;
+}
+
+.cuadro{
+	background: linear-gradient(-50deg, #666 30%, #fff 98%)
+  transform: rotateZ(45deg)
+  border-radius: 15%
+}
+
+.button{
+  padding: .3em;
+  margin: 4em;
+  height: 45px;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #fff;
+  background-color: #00687c;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  }
+
+.button:hover {
+  background-color: #84c225;
+      box-shadow: 0px 15px 20px rgba(132, 194, 37, 0.73);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.button >p{
+	margin-top: 0.6em;
+}
+
+
+
+}
