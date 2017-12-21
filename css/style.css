@@ -40,10 +40,40 @@ body{
  /** BOTON DE PLAY */
 
 #titulo > section > section > a:nth-child(3) > center > img{
-      height: 58px;
+    height: 58px;
     position: absolute;
     margin-left: -2em;
     margin-top: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+    -webkit-animation: pulse 1.5s infinite;
+}
+#titulo > section > section > a:nth-child(3) > center > img:hover {
+  -webkit-animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
 }
  /** BOTON DE PLAY */
 
@@ -131,21 +161,11 @@ height: 100%;
 /*uwgduqwy*/
 
 
-
-
-
-
 .button{
   position: absolute;
-  /*padding-bottom: 0em;
-  margin-bottom: -2em !important;*/
   padding: .3em;
-  margin: -2em 5em;
-  /*height: 45px;*/
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  color: #fff;
+  margin: -2em 4em;
+ width: 62%;
   background-color: #00687c;
   border: none;
   border-radius: 45px;
@@ -161,8 +181,19 @@ height: 100%;
   transform: translateY(-7px);
 }
 
-.button >p{
+#titulo > section > section > div.button > a > p{
 	margin-top: 0.6em;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #fff;
+}
+#titulo > section > section > div.button > a{
+      color: #00687c;
+}
+
+#titulo > section > section > div.button:hover > a{
+  color: #84c225;
 }
 
 #introduccion > div > h2{
@@ -177,7 +208,7 @@ height: 100%;
 
 #carreras33{
   background:#00a7bc;
-  height: 70em;
+  height: 47em;
   border-radius: 5px 195px;
   margin-top: 78px;
   font-family:'Fira Sans', sans-serif;
@@ -196,11 +227,14 @@ height: 100%;
     font-weight: 200;
     font-style: italic;
 }
+#carreras33 > div{
+      margin-top: -6em;
+}
+
 .letras{
   font-size:22px;
   font-weight: 200;
    margin-left: 1em;
-  margin-top: -2em;
 }
 
 #beneficios > div.container{
@@ -466,6 +500,12 @@ height: 100%;
     margin-top: 3em;
 
  }
+
+ body > div.row.center-xs > div.col-xs-12 > a > img{
+  height: 15em;
+    margin-bottom: 0em;
+    margin-top: 3em;
+ }
  body > div > div:nth-child(2) > a > img{
   width: 60%;
  }
@@ -598,11 +638,18 @@ footer p{
  #titulo > section > section > div:nth-child(5) > img {
     width: 37%;
     margin-top: 0em;
+    margin-left: 2em;
+    margin-bottom: -2em;
 }
 
+#titulo > section > section > a:nth-child(3) > center > img {
+    height: 73px;
+}
+
+
   .button{
-    margin: -3em 13em;
-    width: 13em;
+    margin: -2em 15em;
+    width: 16em;
   }
 
   #carreras33 {
@@ -615,6 +662,8 @@ footer p{
     text-align: center;
     margin-top: 3em;
   }
+
+
   #beneficios h2{
     margin: 2em;
   }
@@ -677,12 +726,12 @@ footer p{
   }
 
 #titulo > section > section > div:nth-child(5) > img {
-    width: 20%;
+    width: 28%;
     margin-top: 0em;
-    margin-bottom: -1em;
+    margin-bottom: -2em
 }
   .button {
-    margin: -2em 28em;
+    margin: -2em 21em;
     width:19em;
 }
 
@@ -736,8 +785,13 @@ footer p{
     margin-top: 10em;
   }
 
+#titulo > section > section > div:nth-child(5) > img {
+    width: 22%;
+}
+
   .button {
-    margin: -2em 29em;
+    margin: -2em 33em;
+     width: 22em;
 }
 
 #introduccion > div > h2 {
@@ -761,7 +815,6 @@ footer p{
 #trabajo h2 {
     margin-top: -2em;
     font-size: 56px;
-    /* text-align: center; */
     margin-right: 2em;
  }  
 
@@ -792,6 +845,9 @@ footer p{
     right: -9px;
 }
 
+#final > section > div > div > h2{
+      font-size: 40px;
+}
 body > div > div.col-xs-12 > img {
     height: 9em;
     margin-bottom: 0em;
@@ -812,11 +868,42 @@ body > div > div:nth-child(4) > a > img {
 footer img {
     width: 28%;
 }
+}
 
 
+@media only screen and (min-width:1920px)
 
+{
 
+#titulo > section > section > div:nth-child(1) > img {
+    width: 10%;
+  }
 
+  #titulo > section > section > div:nth-child(2) > img {
+    width: 30%;
+    margin-top: -7em;
+  }
+
+  #titulo > section > section > a:nth-child(3) > center > img {
+    height: 83px;
+    margin-top: -2em;
+}
+
+#titulo > section > section > div:nth-child(5) > img {
+    width: 16%;
+   margin-top: -2em;
+}
+
+.button {
+    margin: -2em 49em;
+}
+.letras {
+    margin-left: 6em;
+}
+
+form-input {
+    width: 124%;
+}  
 
 }
 
