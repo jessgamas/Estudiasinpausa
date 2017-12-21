@@ -37,9 +37,103 @@ body{
     margin-top: -3em;
 }
 
-#titulo > section > section > div:nth-child(3) > img{
-  width: 70%;
+ /** BOTON DE PLAY */
+
+#titulo > section > section > a:nth-child(3) > center > img{
+      height: 58px;
+    position: absolute;
+    margin-left: -2em;
+    margin-top: 1em;
 }
+ /** BOTON DE PLAY */
+
+#titulo > section > section > div:nth-child(5) >  img{
+  width: 34%;
+  margin-top: 3em;
+}
+
+
+/**VIDEO ESTUDIA SIN PAUSA | LIGHTBOX MARKUP **/
+
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
+
+#video-container {
+position: relative;
+padding-bottom: 56.25%; /* Para que el contenedor tenga relación de aspecto 16/9 */
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+/** videoModal **/
+.modal-body {
+  border-radius: 0;  
+  margin:auto;
+}
+
+
+#videoModal .modal-body  {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+  #videoModal .modal-header {
+    background: #000;
+    border: 0;
+    color: #fff;
+    position: relative;
+      height:35px; }
+    #videoModal .modal-header h3 {
+      font-size: 18px;
+      line-height: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:5px;}
+  #videoModal .modal-body {
+    margin-top: 3em;
+    height: 489px;
+    max-height: none;
+    overflow: hidden; }
+  #videoModal .modal-footer:empty {
+    display: none /**!important;**/ }
+  #videoModal .close {
+    background: #DB00B8;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    text-shadow: none;
+    top: 0;
+    width: 38px; }
+/*uwgduqwy*/
+
+
+
+
+
 
 .button{
   position: absolute;
@@ -500,9 +594,15 @@ footer p{
     width: 40%;
     margin-top: 6em;
 }
+ 
+ #titulo > section > section > div:nth-child(5) > img {
+    width: 37%;
+    margin-top: 0em;
+}
 
   .button{
-    margin: -2em 15em;
+    margin: -3em 13em;
+    width: 13em;
   }
 
   #carreras33 {
@@ -576,8 +676,14 @@ footer p{
     width: 35%;
   }
 
+#titulo > section > section > div:nth-child(5) > img {
+    width: 20%;
+    margin-top: 0em;
+    margin-bottom: -1em;
+}
   .button {
-    margin: -2em 22em;
+    margin: -2em 28em;
+    width:19em;
 }
 
 #introduccion > div > p {
@@ -631,7 +737,7 @@ footer p{
   }
 
   .button {
-    margin: -2em 34em;
+    margin: -2em 29em;
 }
 
 #introduccion > div > h2 {
