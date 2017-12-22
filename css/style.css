@@ -871,13 +871,11 @@ footer img {
 }
 
 
-@media only screen and (min-width:1920px)
+@media only screen and (min-width:1920px){
 
-{
-
-#titulo > section > section > div:nth-child(1) > img {
+#titulo > section > section > div:nth-child(1) > img{
     width: 10%;
-  }
+}
 
   #titulo > section > section > div:nth-child(2) > img {
     width: 30%;
@@ -904,6 +902,20 @@ footer img {
 form-input {
     width: 124%;
 }  
+
+body > div > div:nth-child(2) > a > img {
+    width: 12%;
+  }
+
+body > div > div:nth-child(3) > a > img {
+    width: 12%;
+
+}
+
+body > div > div:nth-child(4) > a > img {
+    width: 12%;
+
+}
 
 }
 
