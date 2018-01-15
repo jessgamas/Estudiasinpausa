@@ -163,11 +163,17 @@ height: 100%;
 
 
 .button{
+  background-color: #00687c;
   position: absolute;
   padding: .3em;
   margin: -2em 4em;
  width: 62%;
-  background-color: #00687c;
+  padding: .3em;
+  margin: -2em 5em;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #fff;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -259,11 +265,6 @@ height: 100%;
   width: 87%;
   margin-top: 1em;
 }
-
-
-/*#beneficios > div:nth-child(2){
-  margin: 4em;
-}*/
 
 #cuadroo > h3{
     color: #00a7bc;
@@ -499,7 +500,6 @@ height: 100%;
     height: 15em;
     margin-bottom: 0em;
     margin-top: 3em;
-
  }
 
  body > div.row.center-xs > div.col-xs-12 > a > img{
@@ -507,6 +507,7 @@ height: 100%;
     margin-bottom: 0em;
     margin-top: 3em;
  }
+
  body > div > div:nth-child(2) > a > img{
   width: 60%;
  }
@@ -580,10 +581,10 @@ footer p{
 }
 
 .form-select::after {
-  content: '▾';
+  content: ;
   position: absolute;
   right: 15px;
-  top: calc(50% - 1px);
+  top: calc(50% - 9px);
   transform: translateY(-50%);
 }
 
@@ -715,24 +716,40 @@ footer p{
 
 
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:1280px){
 
   #titulo {
     border-radius: 0 0 59% 59%
  } 
+ #titulo > section > section > div:nth-child(1) > img {
+    width: 15%;
+  }
   #titulo > section > section > div:nth-child(2) > img {
     width: 35%;
+     margin-top: -6em;
+  }
+
+ #titulo > section > section > a:nth-child(3) > center > img {
+    height: 58px;
+    position: absolute;
+    margin-left: -2em;
+    margin-top: -3em;
   }
 
 #titulo > section > section > div:nth-child(5) > img {
-    width: 28%;
+    width: 20%;
+    margin-top: -3em;
+    margin-bottom: -2em;
+}
+   /** width: 28%;
     margin-top: 0em;
-    margin-bottom: -2em
-}
+    margin-bottom: -2em*/
+
+
   .button {
-    margin: -2em 21em;
-    width:19em;
-}
+    margin: -2em 25em;
+    width: 19em;
+  }
 
 #introduccion > div > p {
     font-size: 30px;
@@ -753,9 +770,8 @@ footer p{
 .letras {
     font-size: 29px;
   }
-
 #cuadroo {
-    margin-left: 7em;
+    width: 70px;
 }
 #trabajo {
     padding: 18em 0em;
@@ -768,6 +784,12 @@ footer p{
   footer img {
     width: 41%;
 }
+  .form-input {
+    padding-left: 5em;
+  }
+
+}
+
 
 @media only screen and (min-width:1440px){
 
