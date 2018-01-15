@@ -20,10 +20,11 @@ body{
 	margin: 0px;
 	color: #00687c; 
 }
+
 #titulo{
-	 background: url(../images/home.png);
+	background: url(../images/home.png);
 	background-size: cover;
-      border-radius: 0 32% 32%;
+  border-radius: 0 32% 32%;
 }
 
 #titulo > section > section > div:nth-child(1) > img{
