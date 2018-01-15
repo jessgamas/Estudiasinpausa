@@ -29,13 +29,13 @@ body{
 
 #titulo > section > section > div:nth-child(1) > img{
 	width: 38%;
-	margin-top: 4em;
+	margin-top: 2em;
 }
 
 #titulo > section > section > div:nth-child(2) > img {
     width: 77%;
     margin-bottom: -5em;
-    margin-top: -3em;
+    margin-top: -5em;
 }
 
  /** BOTON DE PLAY */
@@ -165,11 +165,9 @@ height: 100%;
 .button{
   background-color: #00687c;
   position: absolute;
+  width: 62%;
   padding: .3em;
-  margin: -2em 4em;
- width: 62%;
-  padding: .3em;
-  margin: -2em 5em;
+  margin: -2em 4.5em;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -806,85 +804,86 @@ footer p{
     margin-top: 10em;
   }
 
-#titulo > section > section > div:nth-child(5) > img {
-    width: 22%;
-}
+  #titulo > section > section > div:nth-child(5) > img {
+        width: 22%;
+    }
 
   .button {
     margin: -2em 33em;
      width: 22em;
-}
-
-#introduccion > div > h2 {
-    padding-top: 2em;
-    font-size: 50px;
-}
-
-#introduccion > div > p {
-    font-size: 30px;
-    margin: 2em 8em;
- }
- 
- #cuadroo {
-    margin-left: 6em;
-}
-
-#trabajo {
-    padding: 26em 0em;
-}
-
-#trabajo h2 {
-    margin-top: -2em;
-    font-size: 56px;
-    margin-right: 2em;
- }  
-
-#beneficios{
-      margin: 0px;
-      padding: 6em;
-}
-
- #diagonal {
-    margin-top: -5px;
   }
 
-.form-items {
-    margin-left: 0em;
-    margin-bottom: -0.75em;
-}
-#final > section > div > div > h2{
-  font-size: 45px;
-}
-   
-#final p {
-    font-size: 27px;
-}
-.form-input {
-    width: 111%;
-}
-.form-select::after {
-    right: -9px;
-}
+  #introduccion > div > h2 {
+      padding-top: 2em;
+      font-size: 50px;
+  }
 
-#final > section > div > div > h2{
-      font-size: 40px;
-}
-body > div > div.col-xs-12 > img {
-    height: 9em;
-    margin-bottom: 0em;
-    margin-top: 0em;
-}
+  #introduccion > div > p {
+      font-size: 30px;
+      margin: 2em 8em;
+   }
+   
+   #cuadroo {
+      margin-left: 6em;
+  }
+
+  #trabajo {
+      padding: 26em 0em;
+  }
+
+  #trabajo h2 {
+      margin-top: -2em;
+      font-size: 56px;
+      margin-right: 2em;
+   }  
+
+    #beneficios{
+          margin: 0px;
+          padding: 6em;
+    }
+
+   #diagonal {
+      margin-top: -5px;
+    }
+
+  .form-items {
+      margin-left: 0em;
+      margin-bottom: -0.75em;
+  }
+  #final > section > div > div > h2{
+    font-size: 45px;
+  }
+     
+  #final p {
+      font-size: 27px;
+  }
+  .form-input {
+      width: 111%;
+  }
+  .form-select::after {
+      right: -9px;
+  }
+
+  #final > section > div > div > h2{
+        font-size: 40px;
+  }
+
+  body > div > div.col-xs-12 > img {
+      height: 9em;
+      margin-bottom: 0em;
+      margin-top: 0em;
+  }
 
 body > div > div:nth-child(2) > a > img {
-    width: 17%;
+    width: 16%;
 }
 
 body > div > div:nth-child(3) > a > img {
-    width: 17%;
+    width: 16%;
 }
 
 body > div > div:nth-child(4) > a > img {
-    width: 17%;
+    width: 16%;
 }
 footer img {
     width: 28%;
@@ -914,7 +913,7 @@ footer img {
 }
 
 .button {
-    margin: -2em 49em;
+    margin: -2em 41em;
 }
 .letras {
     margin-left: 6em;
@@ -925,16 +924,16 @@ form-input {
 }  
 
 body > div > div:nth-child(2) > a > img {
-    width: 12%;
+    width: 14%;
   }
 
 body > div > div:nth-child(3) > a > img {
-    width: 12%;
+    width: 14%;
 
 }
 
 body > div > div:nth-child(4) > a > img {
-    width: 12%;
+    width: 14%;
 
 }
 
