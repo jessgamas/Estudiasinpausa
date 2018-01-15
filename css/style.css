@@ -167,7 +167,7 @@ height: 100%;
   position: absolute;
   width: 62%;
   padding: .3em;
-  margin: -2em 4.5em;
+  margin: -2em 3.5em;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -185,19 +185,18 @@ height: 100%;
   color: #fff;
   transform: translateY(-7px);
 }
-
-#titulo > section > section > div.button > a > p{
+#titulo > section > section > section > div > a > p{
 	margin-top: 0.6em;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   color: #fff;
 }
-#titulo > section > section > div.button > a{
+#titulo > section > section >  section > div.button > a{
       color: #00687c;
 }
 
-#titulo > section > section > div.button:hover > a{
+#titulo > section > section > section > div.button:hover > a{
   color: #84c225;
 }
 
